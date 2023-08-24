@@ -1,0 +1,32 @@
+/* Footer */
+
+.footer {
+	margin-top: auto;  
+	padding: 60px 0 50px;
+	background-color: #222222;
+	/* цвет подвала изначальный - второй вариант #26292D; */
+	color: var(--footer-text);
+	/* min-height: 300px; */
+}
+
+.footer__wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 27px;
+}
+
+.social {
+	display: flex;
+	column-gap: 30px;
+	align-items: center;
+}
+
+.copyright {
+	font-size: 16px;
+	color: #fff;
+}
+
+.copyright p + p {
+	margin-top: 0.5em;
+}
